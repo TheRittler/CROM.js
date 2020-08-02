@@ -1,0 +1,1816 @@
+<!doctype html>
+<html lang="de">  
+  <head>    
+    <meta charset="utf-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Package Crom_l1_composed
+    </title>    
+    <!-- Latest compiled and minified CSS -->    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">    
+    <!-- Optional theme -->    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">    
+    <!-- Latest compiled and minified JavaScript -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/9.5.0/styles/default.min.css">
+	<style>
+
+	.panel-body > h4{
+	    color: #31708f;
+	    background-color: #d9edf7;
+	    border: 1px solid #bce8f1;
+	    padding: 10px;
+	  
+	}
+	
+	.panel-body > table{
+	  width:100%;
+	  
+	}
+	
+	.panel-body > table td{
+	  padding: 10px;
+	}
+	
+	.panel-body > table th{
+	  padding: 0 10px;
+	}
+	</style>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+
+    <script src="https://cdn.jsdelivr.net/highlight.js/9.5.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+      </head>  
+      <body>  
+        <div class="container">
+        <div class="jumbotron">
+          <h1>Package Crom_l1_composed</h1>
+          Version: <br />
+          Date:
+          </p>
+          </div>
+          <!-- METAMODEL -->  
+          <div class="bs-docs-section">        
+            <div class="page-header">          
+              <div class="row">            
+                <div class="col-lg-12">              
+                  <h1>Meta Model</h1>            
+                </div>          
+              </div>        
+            </div>        
+            <div class="row">
+            
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> NamedElement</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>name</td>
+		<td>EString</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> ModelElement</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> Model</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>elements</td>
+		<td>ModelElement</td>
+		<td>0..*</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">unique</span>
+			<span class="label label-primary">composes</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>relations</td>
+		<td>Relation</td>
+		<td>0..*</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">unique</span>
+			<span class="label label-primary">composes</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> RigidType</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> Group</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> Relation</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> Parameter</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> Operation</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>params</td>
+		<td>Parameter</td>
+		<td>0..*</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+			<span class="label label-primary">composes</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>operation</td>
+		<td>EString</td>
+		<td>0..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>owner</td>
+		<td>Type</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> Attribute</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>owner</td>
+		<td>Type</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> Type</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>attributes</td>
+		<td>Attribute</td>
+		<td>0..*</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+			<span class="label label-primary">composes</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>operations</td>
+		<td>Operation</td>
+		<td>0..*</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+			<span class="label label-primary">composes</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> DataType</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>serializable</td>
+		<td>EBoolean</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>tr_extends</td>
+		<td>DataType</td>
+		<td>0..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> NaturalType</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>tr_extends</td>
+		<td>NaturalType</td>
+		<td>0..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> CompartmentType</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>parts</td>
+		<td>Part</td>
+		<td>0..*</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">unique</span>
+			<span class="label label-primary">composes</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>relationships</td>
+		<td>Relationship</td>
+		<td>0..*</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+			<span class="label label-primary">composes</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>constraints</td>
+		<td>Constraint</td>
+		<td>0..*</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+			<span class="label label-primary">composes</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>tr_extends</td>
+		<td>CompartmentType</td>
+		<td>0..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>contains</td>
+		<td>CompartmentType</td>
+		<td>0..*</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+			<span class="label label-primary">composes</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>fulfillments</td>
+		<td>Fulfillment</td>
+		<td>0..*</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+			<span class="label label-primary">composes</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> AntiRigidType</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> RoleType</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>tr_extends</td>
+		<td>RoleType</td>
+		<td>0..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> Relationship</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>first</td>
+		<td>Place</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+			<span class="label label-primary">composes</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>second</td>
+		<td>Place</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+			<span class="label label-primary">composes</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>direction</td>
+		<td>Direction</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>tr_constraints</td>
+		<td>IntraRelationshipConstraint</td>
+		<td>0..*</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">unique</span>
+			<span class="label label-primary">composes</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> Fulfillment</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>filled</td>
+		<td>AbstractRole</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>filler</td>
+		<td>Type</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> Inheritance</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> Constraint</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> RoleConstraint</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>first</td>
+		<td>AbstractRole</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>second</td>
+		<td>AbstractRole</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> RelationshipConstraint</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> IntraRelationshipConstraint</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>relation</td>
+		<td>Relationship</td>
+		<td>0..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> InterRelationshipConstraint</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>first</td>
+		<td>Relationship</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>second</td>
+		<td>Relationship</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> ComplexConstraint</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>targets</td>
+		<td>AbstractRole</td>
+		<td>1..*</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>expression</td>
+		<td>EString</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> DataInheritance</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>super</td>
+		<td>DataType</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>sub</td>
+		<td>DataType</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> NaturalInheritance</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>super</td>
+		<td>NaturalType</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>sub</td>
+		<td>NaturalType</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> CompartmentInheritance</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>super</td>
+		<td>CompartmentType</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>sub</td>
+		<td>CompartmentType</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> RoleInheritance</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>super</td>
+		<td>RoleType</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>sub</td>
+		<td>RoleType</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> Place</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>lower</td>
+		<td>EInt</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>upper</td>
+		<td>EInt</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>holder</td>
+		<td>RoleType</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> RelationshipImplication</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> RelationshipExclusion</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> RelationTarget</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>incoming</td>
+		<td>Relation</td>
+		<td>0..*</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>outgoing</td>
+		<td>Relation</td>
+		<td>0..*</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> Irreflexive</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> Cyclic</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> Total</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> Acyclic</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> Reflexive</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> AbstractRole</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> RoleGroup</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>lower</td>
+		<td>EInt</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>upper</td>
+		<td>EInt</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>elements</td>
+		<td>RoleGroupElement</td>
+		<td>1..*</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">unique</span>
+			<span class="label label-primary">composes</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> RoleImplication</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> RoleEquivalence</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> RoleProhibition</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> Part</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>whole</td>
+		<td>CompartmentType</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>lower</td>
+		<td>EInt</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>upper</td>
+		<td>EInt</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+	<tr>
+		<td>role</td>
+		<td>AbstractRole</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+			<span class="label label-primary">composes</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> TypedElement</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>type</td>
+		<td>RigidType</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> ParthoodConstraint</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>kind</td>
+		<td>Parthood</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> RoleGroupElement</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		</table>
+	</div>
+</div>
+
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><b>EClassifier</b> AbstractRoleRef</h3>
+     </div>
+<div class="panel-body">
+<h4>Description</h4>
+<p>To be defined.</p>
+<h4>EStructuralFeatures</h4>
+<table class="">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Multiplicity</th>
+			<th>Tags</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>ref</td>
+		<td>AbstractRole</td>
+		<td>1..1</td>
+		<td>
+			<span class="label label-primary">changeable</span>
+			<span class="label label-primary">ordered</span>
+			<span class="label label-primary">unique</span>
+		</td>
+		<td>Some description</td>
+		</tr>
+	</tbody>
+		</table>
+	</div>
+</div>
+
+              
+            </div>        
+          </div>
+        </div>  
+      </body>
+ </html>
