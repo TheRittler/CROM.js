@@ -7,6 +7,9 @@ module.exports = {
   output: {
     filename: 'crom.js',
     path: path.resolve(__dirname, 'output'),
+    library: 'crom',
+    libraryTarget: 'umd',
+    umdNamedDefine: true
   },
   devtool: 'inline-source-map',
   module: {
