@@ -9,5 +9,3 @@ CROM.js is the implementation of CROM written in TypeScript and can be transpile
 `npm i && npx webpack --config webpack.config.js`.
 
 It will be saved in the `output` directory.
-
-The `index.ts` contains a minimal example of a CROM model which is printed to the console. It should be adjusted before usage of CROM.js.
